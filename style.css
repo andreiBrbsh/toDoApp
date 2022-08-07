@@ -1,0 +1,87 @@
+body {
+      background: #3F72AF;
+      font-family: 'Nunito', sans-serif;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+}
+
+.todo {
+      width: 600px;
+      min-height: 150px;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
+      margin: 20px auto;
+      box-sizing: border-box;
+      padding-bottom: 20px;
+
+}
+
+h1 {
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 46px;
+      color: #112D4E;
+      text-align: center;
+      padding-top: 30px;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
+      margin-bottom: 10px;
+}
+
+.add-new-thing {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 250px;
+      margin: 20px auto;
+      background: #DBE2EF;
+      border: 1px solid rgba(177, 177, 177, 0.4);
+      border-radius: 5px;
+}
+
+#newThing {
+      height: 32px;
+      width: 205px;
+      border: none;
+      background: #DBE2EF;
+      border-radius: 5px 0px 0px 5px;
+}
+button {
+      height: 36px;
+      width: 45px;
+      border: none;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      background: #3F72AF;
+      border-radius: 0px 5px 5px 0px;
+      color: white;
+      font-size: 28px;
+      line-height: 0px;
+      text-align: center;
+      transition: all 0.3s;
+}
+button:hover {
+      background: blue;
+}
+hr {
+      width: 500px;
+}
+
+p {
+      color: #112D4E;
+      font-size: 28px;
+      margin: 10px 50px;
+      padding-left: 8px;
+      background: #DBE2EF;
+
+}
+
+#tasks {
+      padding-left: 45px;
+      font-size: 20px;
+      color: #112D4E;
+}
+
+.red {
+      background: red;
+}

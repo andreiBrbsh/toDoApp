@@ -24,4 +24,4 @@ task.addEventListener('keypress', function(event){
       } else if(task.value.trim() === ''){
             task.value = '';
       }
-})
+});

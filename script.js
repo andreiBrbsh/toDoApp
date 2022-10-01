@@ -16,11 +16,16 @@ task.addEventListener('keypress', function(event){
             label.innerHTML = task.value;
             task.value = '';
 
-            let br = document.createElement('br');
-
             tasks.appendChild(checkbox);
             tasks.appendChild(label);
-            tasks.appendChild(br);
+
+            checkbox.addEventListener('click', function(){
+                  setTimeout(function(){
+                        label.remove();
+                        checkbox.remove();
+                  }, 2000)
+            })
+
       } else if(task.value.trim() === ''){
             task.value = '';
       }
@@ -38,12 +43,18 @@ addTask.addEventListener('click', function(event){
             label.innerHTML = task.value;
             task.value = '';
 
-            let br = document.createElement('br');
-
             tasks.appendChild(checkbox);
             tasks.appendChild(label);
-            tasks.appendChild(br);
+
+            checkbox.addEventListener('click', function(){
+                  setTimeout(function(){
+                        label.remove();
+                        checkbox.remove();
+                  }, 2000)
+            })
+
       } else if(task.value.trim() === ''){
             task.value = '';
       }
 });
+

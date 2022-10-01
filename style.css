@@ -10,7 +10,6 @@ body {
 
 .todo__container {
       max-width: 600px;
-      /* min-width: 300px; */
       min-height: 150px;
       background: white;
       border-radius: 5px;
